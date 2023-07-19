@@ -1,13 +1,13 @@
 //
-//  BuildYourTime2UITestsLaunchTests.swift
-//  BuildYourTime2UITests
+//  BuildYourTimeUITestsLaunchTests.swift
+//  BuildYourTimeUITests
 //
 //  Created by Mélissa Kintz on 20/06/2023.
 //
 
 import XCTest
 
-final class BuildYourTime2UITestsLaunchTests: XCTestCase {
+final class BuildYourTimeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

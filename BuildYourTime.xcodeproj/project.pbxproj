@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A19D5C382A42015000941199 /* BuildYourTime2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C372A42015000941199 /* BuildYourTime2App.swift */; };
-		A19D5C3A2A42015000941199 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C392A42015000941199 /* Item.swift */; };
+		A13079D42A44B8EF00B7E27D /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13079D32A44B8EF00B7E27D /* AddTaskView.swift */; };
+		A13079D72A44CA3C00B7E27D /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13079D62A44CA3C00B7E27D /* CheckBoxView.swift */; };
+		A1719A232A42EA0900A9E731 /* ProjectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A222A42EA0900A9E731 /* ProjectDetailsView.swift */; };
+		A1719A252A42F0AC00A9E731 /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A242A42F0AC00A9E731 /* AddProjectView.swift */; };
+		A1719A292A42FAD500A9E731 /* TaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A282A42FAD500A9E731 /* TaskItemView.swift */; };
+		A19D5C382A42015000941199 /* BuildYourTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C372A42015000941199 /* BuildYourTimeApp.swift */; };
 		A19D5C3C2A42015000941199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C3B2A42015000941199 /* ContentView.swift */; };
 		A19D5C3E2A42015000941199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19D5C3D2A42015000941199 /* Assets.xcassets */; };
 		A19D5C422A42015000941199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19D5C412A42015000941199 /* Preview Assets.xcassets */; };
 		A19D5C4D2A42015000941199 /* BuildYourTime2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C4C2A42015000941199 /* BuildYourTime2Tests.swift */; };
 		A19D5C572A42015000941199 /* BuildYourTime2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C562A42015000941199 /* BuildYourTime2UITests.swift */; };
 		A19D5C592A42015000941199 /* BuildYourTime2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C582A42015000941199 /* BuildYourTime2UITestsLaunchTests.swift */; };
+		A19D5C672A42016500941199 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C662A42016500941199 /* Project.swift */; };
+		A19D5C692A42016D00941199 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C682A42016D00941199 /* Task.swift */; };
+		A19D5C6C2A4203D300941199 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C6B2A4203D300941199 /* PreviewSampleData.swift */; };
+		A1E340972A67D2FE004EB2B5 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E340962A67D2FE004EB2B5 /* StopWatchManager.swift */; };
+		A1E340992A67E02D004EB2B5 /* TimerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E340982A67E02D004EB2B5 /* TimerButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A19D5C342A42015000941199 /* BuildYourTime2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildYourTime2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A19D5C372A42015000941199 /* BuildYourTime2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourTime2App.swift; sourceTree = "<group>"; };
-		A19D5C392A42015000941199 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A13079D32A44B8EF00B7E27D /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		A13079D62A44CA3C00B7E27D /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		A1719A222A42EA0900A9E731 /* ProjectDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsView.swift; sourceTree = "<group>"; };
+		A1719A242A42F0AC00A9E731 /* AddProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
+		A1719A282A42FAD500A9E731 /* TaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemView.swift; sourceTree = "<group>"; };
+		A19D5C342A42015000941199 /* BuildYourTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildYourTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19D5C372A42015000941199 /* BuildYourTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourTimeApp.swift; sourceTree = "<group>"; };
 		A19D5C3B2A42015000941199 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A19D5C3D2A42015000941199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A19D5C3F2A42015000941199 /* BuildYourTime2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuildYourTime2.entitlements; sourceTree = "<group>"; };
+		A19D5C3F2A42015000941199 /* BuildYourTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuildYourTime.entitlements; sourceTree = "<group>"; };
 		A19D5C412A42015000941199 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A19D5C432A42015000941199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A19D5C482A42015000941199 /* BuildYourTime2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildYourTime2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19D5C482A42015000941199 /* BuildYourTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildYourTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19D5C4C2A42015000941199 /* BuildYourTime2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourTime2Tests.swift; sourceTree = "<group>"; };
-		A19D5C522A42015000941199 /* BuildYourTime2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildYourTime2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19D5C522A42015000941199 /* BuildYourTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildYourTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19D5C562A42015000941199 /* BuildYourTime2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourTime2UITests.swift; sourceTree = "<group>"; };
 		A19D5C582A42015000941199 /* BuildYourTime2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourTime2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A19D5C662A42016500941199 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		A19D5C682A42016D00941199 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		A19D5C6B2A4203D300941199 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		A1E340962A67D2FE004EB2B5 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
+		A1E340982A67E02D004EB2B5 /* TimerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +93,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A13079D52A44CA2800B7E27D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				A13079D62A44CA3C00B7E27D /* CheckBoxView.swift */,
+				A1E340982A67E02D004EB2B5 /* TimerButtonView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		A1719A262A42FABA00A9E731 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				A1719A222A42EA0900A9E731 /* ProjectDetailsView.swift */,
+				A1719A242A42F0AC00A9E731 /* AddProjectView.swift */,
+			);
+			path = project;
+			sourceTree = "<group>";
+		};
+		A1719A272A42FAC600A9E731 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				A1719A282A42FAD500A9E731 /* TaskItemView.swift */,
+				A13079D32A44B8EF00B7E27D /* AddTaskView.swift */,
+			);
+			path = task;
+			sourceTree = "<group>";
+		};
 		A19D5C2B2A42015000941199 = {
 			isa = PBXGroup;
 			children = (
-				A19D5C362A42015000941199 /* BuildYourTime2 */,
-				A19D5C4B2A42015000941199 /* BuildYourTime2Tests */,
-				A19D5C552A42015000941199 /* BuildYourTime2UITests */,
+				A19D5C652A42015700941199 /* Shared */,
+				A19D5C362A42015000941199 /* BuildYourTime */,
+				A19D5C4B2A42015000941199 /* BuildYourTimeTests */,
+				A19D5C552A42015000941199 /* BuildYourTimeUITests */,
 				A19D5C352A42015000941199 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,25 +134,25 @@
 		A19D5C352A42015000941199 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A19D5C342A42015000941199 /* BuildYourTime2.app */,
-				A19D5C482A42015000941199 /* BuildYourTime2Tests.xctest */,
-				A19D5C522A42015000941199 /* BuildYourTime2UITests.xctest */,
+				A19D5C342A42015000941199 /* BuildYourTime.app */,
+				A19D5C482A42015000941199 /* BuildYourTimeTests.xctest */,
+				A19D5C522A42015000941199 /* BuildYourTimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A19D5C362A42015000941199 /* BuildYourTime2 */ = {
+		A19D5C362A42015000941199 /* BuildYourTime */ = {
 			isa = PBXGroup;
 			children = (
-				A19D5C372A42015000941199 /* BuildYourTime2App.swift */,
-				A19D5C392A42015000941199 /* Item.swift */,
-				A19D5C3B2A42015000941199 /* ContentView.swift */,
+				A1E340952A67D2F0004EB2B5 /* Helpers */,
+				A19D5C372A42015000941199 /* BuildYourTimeApp.swift */,
+				A19D5C6A2A4201A500941199 /* Views */,
 				A19D5C3D2A42015000941199 /* Assets.xcassets */,
-				A19D5C3F2A42015000941199 /* BuildYourTime2.entitlements */,
+				A19D5C3F2A42015000941199 /* BuildYourTime.entitlements */,
 				A19D5C432A42015000941199 /* Info.plist */,
 				A19D5C402A42015000941199 /* Preview Content */,
 			);
-			path = BuildYourTime2;
+			path = BuildYourTime;
 			sourceTree = "<group>";
 		};
 		A19D5C402A42015000941199 /* Preview Content */ = {
@@ -117,29 +163,58 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A19D5C4B2A42015000941199 /* BuildYourTime2Tests */ = {
+		A19D5C4B2A42015000941199 /* BuildYourTimeTests */ = {
 			isa = PBXGroup;
 			children = (
 				A19D5C4C2A42015000941199 /* BuildYourTime2Tests.swift */,
 			);
-			path = BuildYourTime2Tests;
+			path = BuildYourTimeTests;
 			sourceTree = "<group>";
 		};
-		A19D5C552A42015000941199 /* BuildYourTime2UITests */ = {
+		A19D5C552A42015000941199 /* BuildYourTimeUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A19D5C562A42015000941199 /* BuildYourTime2UITests.swift */,
 				A19D5C582A42015000941199 /* BuildYourTime2UITestsLaunchTests.swift */,
 			);
-			path = BuildYourTime2UITests;
+			path = BuildYourTimeUITests;
+			sourceTree = "<group>";
+		};
+		A19D5C652A42015700941199 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A19D5C662A42016500941199 /* Project.swift */,
+				A19D5C682A42016D00941199 /* Task.swift */,
+				A19D5C6B2A4203D300941199 /* PreviewSampleData.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A19D5C6A2A4201A500941199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A13079D52A44CA2800B7E27D /* components */,
+				A19D5C3B2A42015000941199 /* ContentView.swift */,
+				A1719A262A42FABA00A9E731 /* project */,
+				A1719A272A42FAC600A9E731 /* task */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1E340952A67D2F0004EB2B5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A1E340962A67D2FE004EB2B5 /* StopWatchManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A19D5C332A42015000941199 /* BuildYourTime2 */ = {
+		A19D5C332A42015000941199 /* BuildYourTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A19D5C5C2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime2" */;
+			buildConfigurationList = A19D5C5C2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime" */;
 			buildPhases = (
 				A19D5C302A42015000941199 /* Sources */,
 				A19D5C312A42015000941199 /* Frameworks */,
@@ -149,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = BuildYourTime2;
+			name = BuildYourTime;
 			productName = BuildYourTime2;
-			productReference = A19D5C342A42015000941199 /* BuildYourTime2.app */;
+			productReference = A19D5C342A42015000941199 /* BuildYourTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A19D5C472A42015000941199 /* BuildYourTime2Tests */ = {
+		A19D5C472A42015000941199 /* BuildYourTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A19D5C5F2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime2Tests" */;
+			buildConfigurationList = A19D5C5F2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTimeTests" */;
 			buildPhases = (
 				A19D5C442A42015000941199 /* Sources */,
 				A19D5C452A42015000941199 /* Frameworks */,
@@ -167,14 +242,14 @@
 			dependencies = (
 				A19D5C4A2A42015000941199 /* PBXTargetDependency */,
 			);
-			name = BuildYourTime2Tests;
+			name = BuildYourTimeTests;
 			productName = BuildYourTime2Tests;
-			productReference = A19D5C482A42015000941199 /* BuildYourTime2Tests.xctest */;
+			productReference = A19D5C482A42015000941199 /* BuildYourTimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A19D5C512A42015000941199 /* BuildYourTime2UITests */ = {
+		A19D5C512A42015000941199 /* BuildYourTimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A19D5C622A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime2UITests" */;
+			buildConfigurationList = A19D5C622A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTimeUITests" */;
 			buildPhases = (
 				A19D5C4E2A42015000941199 /* Sources */,
 				A19D5C4F2A42015000941199 /* Frameworks */,
@@ -185,9 +260,9 @@
 			dependencies = (
 				A19D5C542A42015000941199 /* PBXTargetDependency */,
 			);
-			name = BuildYourTime2UITests;
+			name = BuildYourTimeUITests;
 			productName = BuildYourTime2UITests;
-			productReference = A19D5C522A42015000941199 /* BuildYourTime2UITests.xctest */;
+			productReference = A19D5C522A42015000941199 /* BuildYourTimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A19D5C2F2A42015000941199 /* Build configuration list for PBXProject "BuildYourTime2" */;
+			buildConfigurationList = A19D5C2F2A42015000941199 /* Build configuration list for PBXProject "BuildYourTime" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +301,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A19D5C332A42015000941199 /* BuildYourTime2 */,
-				A19D5C472A42015000941199 /* BuildYourTime2Tests */,
-				A19D5C512A42015000941199 /* BuildYourTime2UITests */,
+				A19D5C332A42015000941199 /* BuildYourTime */,
+				A19D5C472A42015000941199 /* BuildYourTimeTests */,
+				A19D5C512A42015000941199 /* BuildYourTimeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,9 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19D5C3A2A42015000941199 /* Item.swift in Sources */,
-				A19D5C382A42015000941199 /* BuildYourTime2App.swift in Sources */,
+				A19D5C382A42015000941199 /* BuildYourTimeApp.swift in Sources */,
+				A13079D72A44CA3C00B7E27D /* CheckBoxView.swift in Sources */,
+				A1719A232A42EA0900A9E731 /* ProjectDetailsView.swift in Sources */,
+				A1719A292A42FAD500A9E731 /* TaskItemView.swift in Sources */,
+				A13079D42A44B8EF00B7E27D /* AddTaskView.swift in Sources */,
+				A19D5C692A42016D00941199 /* Task.swift in Sources */,
+				A1719A252A42F0AC00A9E731 /* AddProjectView.swift in Sources */,
 				A19D5C3C2A42015000941199 /* ContentView.swift in Sources */,
+				A1E340992A67E02D004EB2B5 /* TimerButtonView.swift in Sources */,
+				A19D5C672A42016500941199 /* Project.swift in Sources */,
+				A1E340972A67D2FE004EB2B5 /* StopWatchManager.swift in Sources */,
+				A19D5C6C2A4203D300941199 /* PreviewSampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +376,12 @@
 /* Begin PBXTargetDependency section */
 		A19D5C4A2A42015000941199 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A19D5C332A42015000941199 /* BuildYourTime2 */;
+			target = A19D5C332A42015000941199 /* BuildYourTime */;
 			targetProxy = A19D5C492A42015000941199 /* PBXContainerItemProxy */;
 		};
 		A19D5C542A42015000941199 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A19D5C332A42015000941199 /* BuildYourTime2 */;
+			target = A19D5C332A42015000941199 /* BuildYourTime */;
 			targetProxy = A19D5C532A42015000941199 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -355,7 +439,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +496,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -422,15 +510,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BuildYourTime2/BuildYourTime2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BuildYourTime/BuildYourTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BuildYourTime2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BuildYourTime/Preview Content\"";
 				DEVELOPMENT_TEAM = VW9T6WTC98;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BuildYourTime2/Info.plist;
+				INFOPLIST_FILE = BuildYourTime/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -446,7 +534,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime2;
+				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -461,15 +549,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BuildYourTime2/BuildYourTime2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BuildYourTime/BuildYourTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BuildYourTime2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BuildYourTime/Preview Content\"";
 				DEVELOPMENT_TEAM = VW9T6WTC98;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BuildYourTime2/Info.plist;
+				INFOPLIST_FILE = BuildYourTime/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -485,7 +573,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime2;
+				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -507,14 +595,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildYourTime2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuildYourTime2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildYourTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuildYourTime";
 			};
 			name = Debug;
 		};
@@ -530,14 +618,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildYourTime2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuildYourTime2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildYourTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuildYourTime";
 			};
 			name = Release;
 		};
@@ -552,7 +640,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTimeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -574,7 +662,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTime2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kmelicode.BuildYourTimeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -588,7 +676,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A19D5C2F2A42015000941199 /* Build configuration list for PBXProject "BuildYourTime2" */ = {
+		A19D5C2F2A42015000941199 /* Build configuration list for PBXProject "BuildYourTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A19D5C5A2A42015000941199 /* Debug */,
@@ -597,7 +685,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A19D5C5C2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime2" */ = {
+		A19D5C5C2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A19D5C5D2A42015000941199 /* Debug */,
@@ -606,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A19D5C5F2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime2Tests" */ = {
+		A19D5C5F2A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A19D5C602A42015000941199 /* Debug */,
@@ -615,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A19D5C622A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTime2UITests" */ = {
+		A19D5C622A42015000941199 /* Build configuration list for PBXNativeTarget "BuildYourTimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A19D5C632A42015000941199 /* Debug */,

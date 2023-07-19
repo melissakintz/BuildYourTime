@@ -1,13 +1,13 @@
 //
-//  BuildYourTime2Tests.swift
-//  BuildYourTime2Tests
+//  BuildYourTimeTests.swift
+//  BuildYourTimeTests
 //
 //  Created by Mélissa Kintz on 20/06/2023.
 //
 
 import XCTest
 
-final class BuildYourTime2Tests: XCTestCase {
+final class BuildYourTimeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
