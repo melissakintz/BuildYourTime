@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		A13079D42A44B8EF00B7E27D /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13079D32A44B8EF00B7E27D /* AddTaskView.swift */; };
 		A13079D72A44CA3C00B7E27D /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13079D62A44CA3C00B7E27D /* CheckBoxView.swift */; };
-		A1719A232A42EA0900A9E731 /* ProjectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A222A42EA0900A9E731 /* ProjectDetailsView.swift */; };
-		A1719A252A42F0AC00A9E731 /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A242A42F0AC00A9E731 /* AddProjectView.swift */; };
-		A1719A292A42FAD500A9E731 /* TaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A282A42FAD500A9E731 /* TaskItemView.swift */; };
+		A1719A232A42EA0900A9E731 /* ProjectDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A222A42EA0900A9E731 /* ProjectDetails.swift */; };
+		A1719A252A42F0AC00A9E731 /* ProjectForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A242A42F0AC00A9E731 /* ProjectForm.swift */; };
+		A1719A292A42FAD500A9E731 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1719A282A42FAD500A9E731 /* TaskRow.swift */; };
 		A19D5C382A42015000941199 /* BuildYourTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C372A42015000941199 /* BuildYourTimeApp.swift */; };
 		A19D5C3C2A42015000941199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C3B2A42015000941199 /* ContentView.swift */; };
 		A19D5C3E2A42015000941199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19D5C3D2A42015000941199 /* Assets.xcassets */; };
@@ -24,6 +24,8 @@
 		A19D5C6C2A4203D300941199 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D5C6B2A4203D300941199 /* PreviewSampleData.swift */; };
 		A1E340972A67D2FE004EB2B5 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E340962A67D2FE004EB2B5 /* StopWatchManager.swift */; };
 		A1E340992A67E02D004EB2B5 /* TimerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E340982A67E02D004EB2B5 /* TimerButtonView.swift */; };
+		A1E3409B2A680005004EB2B5 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3409A2A680005004EB2B5 /* TaskView.swift */; };
+		A1E3409D2A680DFB004EB2B5 /* SubTaskForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3409C2A680DFB004EB2B5 /* SubTaskForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +48,9 @@
 /* Begin PBXFileReference section */
 		A13079D32A44B8EF00B7E27D /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		A13079D62A44CA3C00B7E27D /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
-		A1719A222A42EA0900A9E731 /* ProjectDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsView.swift; sourceTree = "<group>"; };
-		A1719A242A42F0AC00A9E731 /* AddProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
-		A1719A282A42FAD500A9E731 /* TaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemView.swift; sourceTree = "<group>"; };
+		A1719A222A42EA0900A9E731 /* ProjectDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetails.swift; sourceTree = "<group>"; };
+		A1719A242A42F0AC00A9E731 /* ProjectForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectForm.swift; sourceTree = "<group>"; };
+		A1719A282A42FAD500A9E731 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		A19D5C342A42015000941199 /* BuildYourTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildYourTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19D5C372A42015000941199 /* BuildYourTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildYourTimeApp.swift; sourceTree = "<group>"; };
 		A19D5C3B2A42015000941199 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 		A19D5C6B2A4203D300941199 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
 		A1E340962A67D2FE004EB2B5 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 		A1E340982A67E02D004EB2B5 /* TimerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtonView.swift; sourceTree = "<group>"; };
+		A1E3409A2A680005004EB2B5 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		A1E3409C2A680DFB004EB2B5 /* SubTaskForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTaskForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +109,8 @@
 		A1719A262A42FABA00A9E731 /* project */ = {
 			isa = PBXGroup;
 			children = (
-				A1719A222A42EA0900A9E731 /* ProjectDetailsView.swift */,
-				A1719A242A42F0AC00A9E731 /* AddProjectView.swift */,
+				A1719A222A42EA0900A9E731 /* ProjectDetails.swift */,
+				A1719A242A42F0AC00A9E731 /* ProjectForm.swift */,
 			);
 			path = project;
 			sourceTree = "<group>";
@@ -114,8 +118,10 @@
 		A1719A272A42FAC600A9E731 /* task */ = {
 			isa = PBXGroup;
 			children = (
-				A1719A282A42FAD500A9E731 /* TaskItemView.swift */,
+				A1719A282A42FAD500A9E731 /* TaskRow.swift */,
 				A13079D32A44B8EF00B7E27D /* AddTaskView.swift */,
+				A1E3409A2A680005004EB2B5 /* TaskView.swift */,
+				A1E3409C2A680DFB004EB2B5 /* SubTaskForm.swift */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -144,8 +150,8 @@
 		A19D5C362A42015000941199 /* BuildYourTime */ = {
 			isa = PBXGroup;
 			children = (
-				A1E340952A67D2F0004EB2B5 /* Helpers */,
 				A19D5C372A42015000941199 /* BuildYourTimeApp.swift */,
+				A1E340952A67D2F0004EB2B5 /* Helpers */,
 				A19D5C6A2A4201A500941199 /* Views */,
 				A19D5C3D2A42015000941199 /* Assets.xcassets */,
 				A19D5C3F2A42015000941199 /* BuildYourTime.entitlements */,
@@ -193,8 +199,8 @@
 		A19D5C6A2A4201A500941199 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A13079D52A44CA2800B7E27D /* components */,
 				A19D5C3B2A42015000941199 /* ContentView.swift */,
+				A13079D52A44CA2800B7E27D /* components */,
 				A1719A262A42FABA00A9E731 /* project */,
 				A1719A272A42FAC600A9E731 /* task */,
 			);
@@ -341,11 +347,13 @@
 			files = (
 				A19D5C382A42015000941199 /* BuildYourTimeApp.swift in Sources */,
 				A13079D72A44CA3C00B7E27D /* CheckBoxView.swift in Sources */,
-				A1719A232A42EA0900A9E731 /* ProjectDetailsView.swift in Sources */,
-				A1719A292A42FAD500A9E731 /* TaskItemView.swift in Sources */,
+				A1719A232A42EA0900A9E731 /* ProjectDetails.swift in Sources */,
+				A1719A292A42FAD500A9E731 /* TaskRow.swift in Sources */,
 				A13079D42A44B8EF00B7E27D /* AddTaskView.swift in Sources */,
 				A19D5C692A42016D00941199 /* Task.swift in Sources */,
-				A1719A252A42F0AC00A9E731 /* AddProjectView.swift in Sources */,
+				A1719A252A42F0AC00A9E731 /* ProjectForm.swift in Sources */,
+				A1E3409D2A680DFB004EB2B5 /* SubTaskForm.swift in Sources */,
+				A1E3409B2A680005004EB2B5 /* TaskView.swift in Sources */,
 				A19D5C3C2A42015000941199 /* ContentView.swift in Sources */,
 				A1E340992A67E02D004EB2B5 /* TimerButtonView.swift in Sources */,
 				A19D5C672A42016500941199 /* Project.swift in Sources */,

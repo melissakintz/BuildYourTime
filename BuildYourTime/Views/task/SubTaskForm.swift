@@ -1,22 +1,23 @@
 //
-//  AddTaskView.swift
+//  SubTaskForm.swift
 //  BuildYourTime
 //
-//  Created by Mélissa Kintz on 22/06/2023.
+//  Created by Mélissa Kintz on 19/07/2023.
 //
 
 import SwiftUI
 
-struct AddTaskView: View {
+struct SubTaskForm: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
-    @State private var name = ""
     
-    var project: Project
+    var task: Task
+    
+    @State private var name = ""
     
     var body: some View {
         HStack {
-            TextField("Task name", text: $name)
+            TextField("Subtask name", text: $name)
                 .onSubmit {
                     addTask()
                 }
@@ -24,7 +25,6 @@ struct AddTaskView: View {
                 addTask()
             } label: {
                 Image(systemName: "plus.circle")
-                    .foregroundColor(.accentColor)
             }
         }
     }
@@ -35,16 +35,13 @@ struct AddTaskView: View {
         }
         withAnimation {
             let newTask = Task(name: name)
-            newTask.project = project
-            modelContext.insert(newTask)
+            
+            task.subTasks.append(newTask)
             name = ""
         }
     }
 }
 
 #Preview {
-    MainActor.assumeIsolated {
-        AddTaskView(project: .preview).modelContainer(PreviewSampleData.container)
-    }
-    
+    SubTaskForm(task: .preview)
 }

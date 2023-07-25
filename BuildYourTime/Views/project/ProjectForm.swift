@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddProjectView: View {
+struct ProjectForm: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     
@@ -26,6 +26,9 @@ struct AddProjectView: View {
             TextField("Name", text: $name)
                 .submitScope()
                 .focused($focusedField, equals: .nameField)
+                .onSubmit {
+                    addProject()
+                }
         }
         .defaultFocus($focusedField, .nameField)
         .toolbar {
@@ -60,7 +63,7 @@ struct AddProjectView: View {
 #Preview {
     MainActor.assumeIsolated {
         NavigationStack {
-            AddProjectView().modelContainer(PreviewSampleData.container)
+            ProjectForm().modelContainer(PreviewSampleData.container)
         }
     }
 }

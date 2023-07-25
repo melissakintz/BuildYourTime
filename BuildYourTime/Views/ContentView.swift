@@ -13,13 +13,14 @@ struct ContentView: View {
     @Query private var projects: [Project]
     
     @State var selectedProject: Project?
+    @State var selectedTask: Task?
     @State var showAddProject: Bool = false
     
     var body: some View {
         NavigationSplitView {
             List(selection: $selectedProject) {
                 ForEach(projects) { project in
-                    NavigationLink(value: project) {
+                    NavigationLink(destination: ProjectDetails(project: project, selectedTask: $selectedTask)) {
                         Text(project.name)
                     }
                 }
@@ -41,15 +42,18 @@ struct ContentView: View {
             }
             .sheet(isPresented: $showAddProject) {
                 NavigationStack {
-                    AddProjectView()
+                    ProjectForm()
                 }
             }
-            Text("Select an item")
-        } detail: {
-            if let project = selectedProject {
-                ProjectDetailsView(project: project)
+        } content: {
+            if let selectedProject {
+                ProjectDetails(project: selectedProject, selectedTask: $selectedTask)
             }else {
                 Text("rien")
+            }
+        } detail: {
+            if let selectedTask  {
+                TaskView(task: selectedTask)
             }
         }
     }

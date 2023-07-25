@@ -26,7 +26,7 @@ struct TimerButtonView: View {
             case .stopped :
                 Image(systemName: "timer")
             case .running:
-                Text(stopWatchManager.secondsElapsed.description)
+                Text(stopWatchManager.secondsElapsed.formatted())
             case .paused:
                 Image(systemName: "pause.circle.fill")
                     .symbolEffect(.pulse, isActive: true)

@@ -15,6 +15,7 @@ import SwiftData
     var completedAt: Date?
     var dueDate: Date?
     var timeSpent: Int?
+    
     var project: Project?
     
     @Relationship()
